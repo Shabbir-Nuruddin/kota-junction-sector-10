@@ -1,0 +1,116 @@
+import "@fontsource/martel/700.css";
+import "@fontsource/martel/800.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "Kota Junction",
+  sub: { en: "Vegetarian Rajasthani, dal bati & Kota patties · Sector 10", hi: "शाकाहारी राजस्थानी, दाल बाटी और कोटा पैटीज़ · सेक्टर 10" },
+  banner: { en: "Dal bati churma in Kadipur market", hi: "कादीपुर मार्केट में दाल बाटी चूरमा" },
+  phone: "917597078757",
+  phoneDisplay: "+91 75970 78757",
+  lat: 28.4528974,
+  lon: 77.0039908,
+  hours: [[10, 23], [10, 23], [10, 23], [10, 23], [10, 23], [10, 23], [10, 23]],
+  price: { en: "Under ₹200 per person", hi: "₹200 से कम प्रति व्यक्ति" },
+  theme: {
+    dark: false,
+    bg: "#ffffff",
+    bg2: "#f2f2f8",
+    panel: "#ffffff",
+    ink: "#111226",
+    ink2: "#45465a",
+    ink3: "#7f8094",
+    line: "#e0e0ec",
+    accent: "#2b2d9b",
+    onAccent: "#ffffff",
+    display: "Martel",
+    weight: 800,
+    upper: false,
+  },
+  scene: "feast",
+  align: "right",
+  hero: {
+    title: [
+      { en: "Dal bati churma,", hi: "दाल बाटी चूरमा," },
+      { en: "home food away from home.", hi: "घर से दूर, घर का खाना।" },
+    ],
+    proof: {
+      en: "4.9 on Google from 151 reviews. Rajasthani dal bati churma, tandoori Kota patties and special parathas, all vegetarian, in Kadipur market, Sector 10.",
+      hi: "गूगल पर 151 रिव्यू से 4.9। राजस्थानी दाल बाटी चूरमा, तंदूरी कोटा पैटीज़ और स्पेशल पराठे, पूरी तरह शाकाहारी, कादीपुर मार्केट, सेक्टर 10 में।",
+    },
+    fallback: "/img/p7.jpg",
+    slides: ["/img/p7.jpg", "/img/p4.jpg", "/img/p6.jpg"],
+  },
+  marquee: ["Dal Bati Churma", "Kota Patties", "Tandoori Patties", "Special Paratha", "Pizza", "Burger", "Momos"],
+  dishes: {
+    title: { en: "What to order, in guests' words", hi: "क्या मंगाएं, मेहमानों के शब्दों में" },
+    body: { en: "Every line is a real Google review.", hi: "हर लाइन असली गूगल रिव्यू है।" },
+    layout: "list",
+    items: [
+      { name: { en: "Dal Bati Churma", hi: "दाल बाटी चूरमा" }, quote: "I tried 'Dal Bhati Churma and Patty' and it was delicious😋. Hygiene was very well maintained." },
+      { name: { en: "Tandoori Kota Patties", hi: "तंदूरी कोटा पैटीज़" }, quote: "Best quality of food please try tandoori patties and daal bati" },
+      { name: { en: "Special Paratha", hi: "स्पेशल पराठा" }, quote: "kota Junction Special Paraths is actually Special in taste.", img: "/img/p7.jpg" },
+      { name: { en: "Pizza", hi: "पिज़्ज़ा" }, quote: "Must try dal batti , patties and pizza", img: "/img/p4.jpg" },
+      { name: { en: "Burger", hi: "बर्गर" }, quote: "Best burger ever", img: "/img/p6.jpg" },
+    ],
+  },
+  gallery: { title: { en: "", hi: "" }, layout: "strip", photos: [] },
+  feature: {
+    kind: "thali",
+    title: { en: "Rajasthan, in Sector 10", hi: "सेक्टर 10 में राजस्थान" },
+    body: { en: "What guests say, word for word.", hi: "मेहमान क्या कहते हैं, उन्हीं के शब्दों में।" },
+    img: "/img/p12.jpg",
+    items: [
+      { label: { en: "Like home", hi: "घर जैसा" }, quote: "Amazing experience, the food was too authentic Just like home.... Now im missing my MOM" },
+      { label: { en: "Rajasthani taste", hi: "राजस्थानी स्वाद" }, quote: "Rajasthani taste,,😋😋😋must try place.. Home food away from home" },
+      { label: { en: "The patties", hi: "पैटीज़" }, quote: "Kota patties in gurgaon" },
+      { label: { en: "Sector 10's best", hi: "सेक्टर 10 का बेस्ट" }, quote: "If I say best place in sector 10, I'm not wrong … unforgettable taste !" },
+    ],
+  },
+  reviews: {
+    title: { en: "146 of 151 reviews are five stars", hi: "151 में से 146 रिव्यू पांच स्टार" },
+    rating: 4.9,
+    dist: [146, 3, 0, 0, 2],
+    quotes: [
+      { quote: "Really a must try dal bati", stars: 5 },
+      { quote: "Rajasthani taste,,😋😋😋must try place.. Home food away from home", stars: 5 },
+      { quote: "Best quality of food please try tandoori patties and daal bati", stars: 5 },
+    ],
+  },
+  visit: {
+    title: { en: "Kadipur main market, Sector 10", hi: "कादीपुर मेन मार्केट, सेक्टर 10" },
+    img: "/img/p1.jpg",
+    alt: "Kota Junction storefront in Kadipur market",
+    address: { en: "DSS No. 23, Main Market, Kadipur Village, Sector 10, Gurugram 122001", hi: "डीएसएस नं. 23, मेन मार्केट, कादीपुर गांव, सेक्टर 10, गुरुग्राम 122001" },
+    note: { en: "10 AM to 11 PM, every day. Vegetarian.", hi: "हर दिन सुबह 10 से रात 11 बजे तक। शाकाहारी।" },
+  },
+  pour: { from: "pan", into: "kadhai", liquid: "#a0661a", foam: "#d9a441", thick: 2.0, hot: true, butter: true },
+  story: [
+    { kicker: { en: "The dal bati", hi: "दाल बाटी" }, title: { en: "Really a must try.", hi: "सच में ज़रूर खाइए।" }, quote: "Really a must try dal bati" },
+    { kicker: { en: "The patties", hi: "पैटीज़" }, title: { en: "Kota patties, from the tandoor.", hi: "तंदूर वाली कोटा पैटीज़।" }, quote: "Best quality of food please try tandoori patties and daal bati" },
+    { kicker: { en: "The feeling", hi: "एहसास" }, title: { en: "Just like home.", hi: "बिल्कुल घर जैसा।" }, quote: "Amazing experience, the food was too authentic Just like home.... Now im missing my MOM" },
+  ],
+  build: {
+    title: { en: "Build your order in a few taps", hi: "कुछ टैप में अपना ऑर्डर बनाइए" },
+    body: { en: "Tap what you want, how many and when. It goes to WhatsApp exactly as you see it.", hi: "जो चाहिए टैप करें, कितने लोग और कब, चुनें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    pick: { label: { en: "Order", hi: "ऑर्डर" }, options: [
+      { name: { en: "Dine-in", hi: "बैठकर खाना" } },
+      { name: { en: "Takeaway", hi: "पैक करवाना" } },
+    ] },
+    items: [
+      { en: "Dal Bati Churma", hi: "दाल बाटी चूरमा" },
+      { en: "Tandoori Kota Patties", hi: "तंदूरी कोटा पैटीज़" },
+      { en: "Special Paratha", hi: "स्पेशल पराठा" },
+      { en: "Pizza", hi: "पिज़्ज़ा" },
+      { en: "Burger", hi: "बर्गर" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi Kota Junction, I'd like:", hi: "नमस्ते कोटा जंक्शन, मुझे चाहिए:" },
+  },
+  waHello: {
+    en: "Hi Kota Junction, I'd like to order. Items: , dine-in / takeaway: , time: ",
+    hi: "नमस्ते कोटा जंक्शन, मुझे ऑर्डर देना है। आइटम: , बैठकर / पैक: , समय: ",
+  },
+  order: ["build", "dishes", "feature", "reviews", "visit"],
+};
